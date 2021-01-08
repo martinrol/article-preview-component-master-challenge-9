@@ -8,19 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 720px)">
   </head>
   <body>
+    <div class="container">
+      <main class="main">
+        <section class="main__background">
+          <span class="main__background--img"></span>
+        </section>
+        <section class="main__info">
+          <div class="main__info--text">
+            <h1>
+              Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home
+            </h1>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.
+            </p>
+          </div>
 
-    Shift the overall look and feel by adding these wonderful 
-    touches to furniture in your home
+          <div class="main__info--footer">
+            <div class="main__info--footer-user">
+              <figure>
+                <img src="./images/avatar-michelle.jpg" alt="User photo">
+              </figure>
+              <div class="main__info--footer-user-text">
+                <h3>Michelle Appleton</h3>
+                <p>28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="main__info--footer-btn">
+              <button type="button" id="share-btn">
+                <span></span>
+              </button>
+            </div>
+          </div>
+          <div id="modal"></div>
+        </section>
+      </main>
+    </div>
 
-    Ever been in a room and felt like something was missing? Perhaps 
-    it felt slightly bare and uninviting. I’ve got some simple tips 
-    to help you make any room feel complete.
-
-    Michelle Appleton
-    28 Jun 2020
-
-    Share
+    <script src="./src/index.js"></script>
   </body>
 </html>

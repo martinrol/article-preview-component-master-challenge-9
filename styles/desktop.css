@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.main__background {
+    width: 45%;
+    height: 325px;
+}
+
+.main__background--img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+
+
+.main__info {
+    width: 55%;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+}
+
+.main__info--footer-user {
+    width: 180px;
+}
+
+.main__info--footer-user figure {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ----- Fonts ----- */
+.main__info--text h1 {
+    font-size: 1.9rem;
+}
+
+.main__info--text p {
+    font-size: 1.5rem;
+}
+
+.main__info--footer-user-text h3 {
+    font-size: 1.4rem;
+}
+
+.main__info--footer-user-text p {
+    font-size: 1.2rem;
+}
+
+
+/* ----- Modal ----- */
+.main__info--footer-btn-modal {
+    left: 324px;
+    width: 396px;
+    border-bottom-left-radius: 0px;
+}
+
